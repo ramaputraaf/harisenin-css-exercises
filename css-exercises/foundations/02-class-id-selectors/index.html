@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <style>
+    #no2 {
+      background-color: brown;
+      font-size: large;
+      font-weight: 20px;
+      font-style: italic;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    #no4::after {
+      content: " New Text After";
+      background-color: blueviolet;
+      font-size: small;
+      font-weight: lighter;
+      font-style: oblique;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .general {
+      background-color: tomato;
+      font-size: 25px;
+      color: darkolivegreen;
+    }
+  </style>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class and ID Selectors</title>
+  </head>
+  <body>
+    <p class="general">Number 1 - I'm a class!</p>
+    <div id="no2">Number 2 - I'm one ID.</div>
+    <p class="general">Number 3 - I'm a class</p>
+    <div id="no4">Number 4 - I'm another ID.</div>
+    <p class="general">Number 5 - I'm a class!</p>
+  </body>
+</html>

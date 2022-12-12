@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <style>
+    .article {
+      background-color: coral;
+    }
+    .article h1 {
+      font-style: italic;
+      font-weight: lighter;
+    }
+  </style>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descendant Combinator</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="article">
+      <h1 class="header 1">title</h1>
+      <h1 class="header 2">title 2</h1>
+      <p class="pg">this is paragraph</p>
+    </div>
+    <div class="container">
+      <h1 class="text">This should be styled.</h1>
+    </div>
+    <p class="text">This should be unstyled.</p>
+    <p class="text">This should be unstyled.</p>
+    <div class="container">
+      <p class="text 1">This should be styled.</p>
+      <p class="text 2">This should be styled.</p>
+    </div>
+  </body>
+</html>
